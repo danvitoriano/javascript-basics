@@ -34,6 +34,24 @@ Pequenos trechos de código para aprender e praticar o fundamental de JavaScript
 
 - eventos
 
+- classes
+
+- objetos
+
+- vetores
+
 - setTimeout
 
 - setInterval
+
+- arrowFunction
+
+- templateLiterals
+
+- fetch
+
+- post
+
+- async
+
+- asyncAwait
