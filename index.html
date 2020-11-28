@@ -4,19 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript</title>
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/flex.css" />
+    <link rel="stylesheet" href="./css/mediaQueries.css" />
   </head>
   <body>
-    <p id="textoDOM"></p>
-    <form id="formContainer">
-        <input type="text" placeholder="Nome" id="formName" tabindex="1">
+    <h1>Aplicações Cross Platform</h1>
+    <section id="javascript">
+      <h2>JavaScript</h2>
+      <p id="textoDOM"></p>
+      <form id="formContainer">
+        <input type="text" placeholder="Nome" id="formName" tabindex="1" />
         <button tabindex="2">Enviar</button>
         <p id="mensagem"></p>
-    </form>
-    <div id="timeout"></div>
-    <div id="interval"></div>
-    <div id="classes"></div>
-    <div id="async"></div>
-    <div id="joke"></div>
+      </form>
+      <div id="timeout"></div>
+      <div id="interval"></div>
+      <div id="classes"></div>
+      <div id="async"></div>
+      <div id="joke"></div>
+    </section>
+
+    <section id="css">
+      <h2>CSS</h2>
+      <h3>Grid Layout</h3>
+      <div class="grid-container">
+        <div class="item1">Header</div>
+        <div class="item2">Menu</div>
+        <div class="item3">Main</div>
+        <div class="item4">Right</div>
+        <div class="item5">Footer</div>
+      </div>
+      <div class="wrapper">
+        <div class="box a">A</div>
+        <div class="box b">B</div>
+        <div class="box c">C</div>
+        <div class="box d">D</div>
+        <div class="box e">E</div>
+        <div class="box f">F</div>
+      </div>
+      <h3>Flex Layout</h3>
+      <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+      </div>
+    </section>
+
     <script src="./js/variaveis.js"></script>
     <script src="./js/tipos.js"></script>
     <script src="./js/loop.js"></script>

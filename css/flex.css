@@ -1,0 +1,29 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 50%;
+  border: 1px solid red;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 30px;
+}
+
+.flex-container > div:nth-child(1) {
+  border-bottom-width: 0;
+  border-right-width: 0;
+}
+
+.flex-container > div:nth-child(2) {
+  border-bottom-width: 0;
+}
+
+.flex-container > div:nth-child(3) {
+  border-right-width: 0;
+}
+
+
