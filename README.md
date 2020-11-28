@@ -1,6 +1,6 @@
 # Javascript Basics
 
-Pequenos trechos de código para aprender e práticar o fundamental de JavaScript.
+Pequenos trechos de código para aprender e praticar o fundamental de JavaScript.
 
 ## Tópicos
 
