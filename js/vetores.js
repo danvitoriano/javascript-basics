@@ -11,6 +11,7 @@ console.log("primeiro item do array: ", primeira)
 console.log("índice do array: ", indice)
 console.log("tamanho do array: ", tamanhoArray)
 console.log("tamanho do array após push: ", frutas.length)
+console.log(frutas)
 
 frutas.pop() // retira último item da lista
 
