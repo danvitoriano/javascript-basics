@@ -1,5 +1,5 @@
-const width = screen.width
-const height = screen.height
+const width = window.screen.width
+const height = window.screen.height
 const innerWidth = window.innerWidth
 
 console.log("width: ", width)
